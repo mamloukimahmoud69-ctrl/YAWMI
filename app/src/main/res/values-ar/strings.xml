@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">YAWMI</string>
+    <string name="app_brand_subtitle">منظمك اليومي الشخصي</string>
+
+    <!-- Navigation Destinations -->
+    <string name="nav_today">اليوم</string>
+    <string name="nav_tasks">المهام</string>
+    <string name="nav_calendar">التقويم</string>
+    <string name="nav_habits_goals">العادات</string>
+    <string name="nav_stats_settings">الإحصائيات</string>
+
+    <!-- Greetings & Today Dashboard -->
+    <string name="today_live_badge">اليوم · محلي بالكامل</string>
+    <string name="greeting_morning">صباح الخير</string>
+    <string name="greeting_afternoon">طاب يومك</string>
+    <string name="greeting_evening">مساء الخير</string>
+    <string name="today_summary_subtitle">خطتك اليومية بالكامل تحت تحكمك</string>
+    <string name="today_progress_title">نسبة الإنجاز اليومي</string>
+    <string name="today_progress_empty">لا توجد مهام مجدولة لليوم بعد</string>
+    <string name="today_progress_summary">تم إكمال %1$d من %2$d</string>
+    <string name="metric_total">الإجمالي</string>
+    <string name="metric_completed">المكتملة</string>
+    <string name="metric_remaining">المتبقية</string>
+    <string name="metric_overdue">المتأخرة</string>
+    <string name="section_priorities">الأولويات المهمة</string>
+    <string name="section_priorities_empty">لا توجد مهام نشطة ذات أولوية عالية حالياً.</string>
+    <string name="section_upcoming">الجدول القادم</string>
+    <string name="section_upcoming_empty">لا توجد مهام نشطة مجدولة أو غير مجدولة حالياً.</string>
+    <string name="today_section_unscheduled">مهام غير مجدولة</string>
+    <string name="today_action_view_all">عرض الكل</string>
+    <string name="today_msg_task_created">تمت إضافة المهمة.</string>
+    <string name="today_msg_task_completed">تم إكمال المهمة بنجاح.</string>
+    <string name="today_msg_task_reopened">تمت إعادة فتح المهمة.</string>
+    <string name="fab_quick_add_desc">إضافة مهمة سريعة</string>
+
+    <!-- Tasks, Calendar, Habits & Goals Foundations -->
+    <string name="tasks_title">المهام</string>
+    <string name="tasks_foundation_desc">إدارة المهام اليدوية والأولويات والتصنيفات والبحث ستُبنى في المرحلة الثالثة فوق قاعدة Room.</string>
+    <string name="calendar_title">التقويم</string>
+    <string name="calendar_foundation_desc">عروض التقويم اليومي والأسبوعي والشهري بالتوقيت المحلي ستُبنى في المرحلة الرابعة.</string>
+    <string name="habits_goals_title">العادات والأهداف</string>
+    <string name="habits_goals_foundation_desc">تتبع العادات المتكررة والسلاسل والأهداف الشخصية المرتبطة سيُبنى في المرحلة الخامسة.</string>
+
+    <!-- Stats & Settings -->
+    <string name="stats_settings_title">الإحصائيات والإعدادات</string>
+    <string name="section_appearance">المظهر والألوان</string>
+    <string name="theme_dark_charcoal">الفحمي الداكن</string>
+    <string name="theme_warm_light">الفاتح المحايد الدافئ</string>
+    <string name="theme_system">مظهر النظام</string>
+    <string name="section_language">اللغة والاتجاه</string>
+    <string name="language_arabic_rtl">العربية (RTL)</string>
+    <string name="language_english_ltr">English (LTR)</string>
+    <string name="section_analytics_preview">تقارير الإنتاجية</string>
+    <string name="analytics_foundation_desc">مخططات الإنجاز وثبات العادات والنسخ الاحتياطي JSON ستُضاف في المرحلة السادسة.</string>
+    <string name="foundation_badge">المرحلة ١ · الأساس المحلي</string>
+
+    <!-- Sub-Unit 3B.1: Task Editor & Category Management -->
+    <string name="task_editor_new_title">مهمة جديدة</string>
+    <string name="task_editor_edit_title">تعديل المهمة</string>
+    <string name="task_field_title_label">عنوان المهمة *</string>
+    <string name="task_field_title_hint">ما الذي تريد إنجازه؟</string>
+    <string name="task_field_description_label">الوصف (اختياري)</string>
+    <string name="task_field_notes_label">ملاحظات (اختياري)</string>
+    <string name="task_field_schedule_section">الجدولة (اختياري)</string>
+    <string name="task_schedule_unscheduled">غير مجدولة</string>
+    <string name="task_schedule_today">اليوم</string>
+    <string name="task_schedule_tomorrow">غداً</string>
+    <string name="task_schedule_pick_date">اختيار تاريخ</string>
+    <string name="task_field_start_time">وقت البداية (HH:mm)</string>
+    <string name="task_field_end_time">وقت النهاية (HH:mm)</string>
+    <string name="task_field_priority_section">الأولوية</string>
+    <string name="priority_high">عالية</string>
+    <string name="priority_medium">متوسطة</string>
+    <string name="priority_low">منخفضة</string>
+    <string name="task_field_category_section">التصنيف</string>
+    <string name="category_none">بدون تصنيف</string>
+    <string name="category_manage">إدارة</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_clear">مسح</string>
+    <string name="action_close">إغلاق</string>
+    <string name="action_add">إضافة</string>
+    <string name="action_edit">تعديل</string>
+    <string name="action_delete">حذف</string>
+
+    <!-- Category Manager -->
+    <string name="category_manager_title">إدارة التصنيفات</string>
+    <string name="category_name_label">اسم التصنيف</string>
+    <string name="category_name_hint">مثال: العمل، شخصي، الصحة</string>
+    <string name="category_color_label">اللون</string>
+    <string name="category_empty_state">لا توجد تصنيفات بعد. أضف تصنيفاً لتنظيم مهامك.</string>
+    <string name="category_error_empty_name">اسم التصنيف لا يمكن أن يكون فارغاً.</string>
+    <string name="category_save_edit">حفظ التعديل</string>
+
+    <!-- Task Validation Errors -->
+    <string name="task_error_empty_title">عنوان المهمة مطلوب.</string>
+    <string name="task_error_invalid_date">أدخل تاريخاً صحيحاً بصيغة (YYYY-MM-DD).</string>
+    <string name="task_error_invalid_start_time">أدخل وقت بداية صحيحاً بصيغة (HH:mm).</string>
+    <string name="task_error_invalid_end_time">أدخل وقت نهاية صحيحاً بصيغة (HH:mm).</string>
+    <string name="task_error_end_without_start">وقت النهاية يتطلب إدخال وقت البداية.</string>
+    <string name="task_error_end_before_start">وقت النهاية لا يمكن أن يسبق وقت البداية.</string>
+    <string name="task_error_category_not_found">التصنيف المختار لم يعد موجوداً.</string>
+    <string name="task_error_not_found">تعذر العثور على المهمة.</string>
+    <string name="task_error_invalid_transition">هذا التغيير في حالة المهمة غير مسموح.</string>
+    <string name="task_error_recurrence_interval">يجب أن يكون الفاصل الزمني للتكرار ١ على الأقل.</string>
+    <string name="task_error_recurrence_end_date">أدخل تاريخ نهاية تكرار صحيحاً بصيغة (YYYY-MM-DD).</string>
+    <string name="task_error_recurrence_end_before_start">تاريخ نهاية التكرار لا يمكن أن يسبق تاريخ المهمة.</string>
+    <string name="task_error_recurrence_requires_date">المهمة المتكررة تتطلب تحديد تاريخ مجدول.</string>
+    <string name="task_error_recurrence_requires_days">اختر يوماً واحداً على الأقل من الأسبوع للتكرار المخصص.</string>
+
+    <!-- Sub-Unit 3B.2: TasksScreen Search, Filters, Sort & Quick Actions -->
+    <string name="tasks_search_hint">ابحث في المهام…</string>
+    <string name="tasks_count_label">%1$d مهام</string>
+    <string name="tasks_sort_label">فرز</string>
+    <string name="tasks_sort_schedule">الجدول الزمني</string>
+    <string name="tasks_sort_priority">الأولوية</string>
+    <string name="tasks_sort_newest">الأحدث</string>
+    <string name="tasks_sort_title">العنوان</string>
+    <string name="tasks_filters_toggle">تصفية</string>
+    <string name="tasks_filter_clear">مسح التصفية</string>
+    <string name="tasks_filter_status_all">كل الحالات</string>
+    <string name="tasks_filter_status_active">النشطة</string>
+    <string name="tasks_filter_status_pending">قيد الانتظار</string>
+    <string name="tasks_filter_status_in_progress">قيد التنفيذ</string>
+    <string name="tasks_filter_status_completed">المكتملة</string>
+    <string name="tasks_filter_status_cancelled">الملغاة</string>
+    <string name="tasks_filter_schedule_all">كل التواريخ</string>
+    <string name="tasks_filter_schedule_today">اليوم</string>
+    <string name="tasks_filter_schedule_upcoming">القادمة</string>
+    <string name="tasks_filter_schedule_overdue">المتأخرة</string>
+    <string name="tasks_filter_schedule_unscheduled">غير مجدولة</string>
+    <string name="tasks_filter_priority_all">كل الأولويات</string>
+    <string name="tasks_filter_category_all">كل التصنيفات</string>
+    <string name="tasks_filter_category_none">بدون تصنيف</string>
+    <string name="tasks_section_scheduled">المهام المجدولة</string>
+    <string name="tasks_section_unscheduled">غير مجدولة</string>
+    <string name="task_status_pending">قيد الانتظار</string>
+    <string name="task_status_in_progress">قيد التنفيذ</string>
+    <string name="task_status_completed">مكتملة</string>
+    <string name="task_status_cancelled">ملغاة</string>
+    <string name="task_badge_overdue">متأخرة</string>
+    <string name="task_action_complete">إكمال المهمة</string>
+    <string name="task_action_reopen">إعادة فتح المهمة</string>
+    <string name="task_action_postpone">تأجيل</string>
+    <string name="task_postpone_tomorrow">غداً</string>
+    <string name="task_postpone_next_week">الأسبوع القادم</string>
+    <string name="task_postpone_pick_date">اختيار تاريخ…</string>
+    <string name="task_delete_dialog_title">حذف المهمة؟</string>
+    <string name="task_delete_dialog_message">هل تريد بالتأكيد حذف "%1$s" نهائياً؟</string>
+    <string name="tasks_empty_title">لا توجد مهام بعد</string>
+    <string name="tasks_empty_desc">اضغط على إضافة لإنشاء مهمتك الأولى؛ العنوان فقط هو الحقل الإلزامي.</string>
+    <string name="tasks_filtered_empty_title">لا توجد مهام مطابقة</string>
+    <string name="tasks_filtered_empty_desc">جرّب تعديل عبارة البحث أو مسح عوامل التصفية الحالية.</string>
+
+    <!-- Sub-Unit 3B.3: TaskDetailScreen -->
+    <string name="task_detail_title">تفاصيل المهمة</string>
+    <string name="action_back">رجوع</string>
+    <string name="task_detail_not_found_title">المهمة غير موجودة</string>
+    <string name="task_detail_not_found_desc">ربما تم حذف هذه المهمة.</string>
+    <string name="task_detail_section_details">التفاصيل</string>
+    <string name="task_detail_section_schedule">الجدولة</string>
+    <string name="task_detail_section_notes">الملاحظات</string>
+    <string name="task_detail_section_timeline">السجل الزمني</string>
+    <string name="task_detail_section_actions">إجراءات الحالة</string>
+    <string name="task_detail_empty_details">لم تتم إضافة وصف أو ملاحظات.</string>
+    <string name="task_detail_label_date">التاريخ</string>
+    <string name="task_detail_label_time">الفترة الزمنية</string>
+    <string name="task_detail_label_time_none">بدون وقت محدد</string>
+    <string name="task_detail_label_start_time">وقت البداية</string>
+    <string name="task_detail_label_end_time">وقت النهاية</string>
+    <string name="task_detail_label_created_at">تاريخ الإنشاء</string>
+    <string name="task_detail_label_updated_at">آخر تحديث</string>
+    <string name="task_detail_label_completed_at">وقت الإكمال</string>
+    <string name="task_action_start">بدء المهمة</string>
+    <string name="task_action_cancel_task">إلغاء المهمة</string>
+    <string name="task_cancel_dialog_title">إلغاء المهمة؟</string>
+    <string name="task_cancel_dialog_message">هل تريد بالتأكيد تعيين "%1$s" كملغاة؟ يمكنك إعادة فتحها لاحقاً عند الحاجة.</string>
+    <string name="task_cancel_confirm_action">تأكيد الإلغاء</string>
+    <string name="task_detail_msg_started">تم بدء المهمة.</string>
+    <string name="task_detail_msg_completed">تم إكمال المهمة بنجاح.</string>
+    <string name="task_detail_msg_cancelled">تم إلغاء المهمة.</string>
+    <string name="task_detail_msg_reopened">تمت إعادة فتح المهمة.</string>
+    <string name="task_detail_msg_postponed">تم تأجيل المهمة إلى %1$s.</string>
+    <string name="task_detail_msg_updated">تم تحديث المهمة.</string>
+    <string name="task_detail_msg_deleted">تم حذف المهمة.</string>
+    <string name="task_detail_terminal_hint_completed">هذه المهمة مكتملة. أعد فتحها لتأجيلها أو متابعة العمل عليها.</string>
+    <string name="task_detail_terminal_hint_cancelled">هذه المهمة ملغاة. أعد فتحها إذا أردت العمل عليها مجدداً.</string>
+
+    <!-- Unit 4B: Calendar Screen -->
+    <string name="calendar_mode_day">يوم</string>
+    <string name="calendar_mode_week">أسبوع</string>
+    <string name="calendar_mode_month">شهر</string>
+    <string name="calendar_action_today">اليوم</string>
+    <string name="calendar_prev_period_desc">الفترة السابقة</string>
+    <string name="calendar_next_period_desc">الفترة التالية</string>
+    <string name="calendar_month_task_count">%1$d مهمة مجدولة هذا الشهر</string>
+    <string name="calendar_agenda_title">جدول اليوم</string>
+    <string name="calendar_agenda_empty_title">لا توجد مهام مجدولة لهذا اليوم</string>
+    <string name="calendar_agenda_empty_desc">اضغط على إضافة لجدولة مهمة في %1$s.</string>
+    <string name="calendar_day_summary_active">%1$d نشطة</string>
+    <string name="calendar_day_summary_completed">%1$d مكتملة</string>
+    <string name="calendar_day_summary_overdue">%1$d متأخرة</string>
+</resources>

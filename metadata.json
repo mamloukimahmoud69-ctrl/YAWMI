@@ -1,0 +1,6 @@
+{
+  "name": "YAWMI",
+  "description": "YAWMI (يومي) — Offline-first personal productivity, tasks, calendar, habits, and goals application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
